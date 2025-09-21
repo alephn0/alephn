@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	//"math" Paquete de Matematicas
 )
 
 func main() {
@@ -9,7 +10,7 @@ func main() {
 	fmt.Print("Digite el número: ")
 	fmt.Scan(&n)
 
-	root := n       // CAMBIAR
+	root := n       // CAMBIAR math.Pow(float64(n), Valor)
 	pe := int(root) // parte entera
 	wsw := 0
 
